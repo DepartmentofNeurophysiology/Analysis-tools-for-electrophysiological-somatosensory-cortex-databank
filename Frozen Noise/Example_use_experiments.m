@@ -1,4 +1,4 @@
-filename = 'example_data.mat';  % put the full path to a frozen noise file here.
+filename = 'some folder/some file.mat';  % put the full path to a frozen noise file here.
 
 Settings.MIanalysis.windowtype = 'timewindow';
 Settings.MIanalysis.windowsize = 20000;          % ms, time window for analysis; use 20000 for tau = 50 ms and 100000 for tau = 250 ms;   
