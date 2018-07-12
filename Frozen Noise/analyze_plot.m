@@ -3,6 +3,7 @@ function  Data = analyze_plot(filename, Settings)
 
 %% Initialize 
 f = filesep;
+addpath('functions');
 
 if nargin < 2
     % Analysis
