@@ -1,8 +1,5 @@
 function Data = analyze_data(Data, Params)
 
-f = filesep;
-addpath('functions');
-
 try
     windowtype = Params.MIanalysis.windowtype;
     windowsize = Params.MIanalysis.windowsize;
