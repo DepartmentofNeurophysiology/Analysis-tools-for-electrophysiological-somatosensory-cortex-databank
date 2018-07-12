@@ -2,7 +2,7 @@
 
 ## About
 Analysis code from <br />
-*da Silva Lantyer, A., Calcini, N., Bijlsma, A., Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (under review) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience*
+*da Silva Lantyer, A., Calcini, N., Bijlsma, A., Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (under review) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience* <br />
 Please cite this reference when using the frozen noise data.
 
 ## Other analysis -- please add description
