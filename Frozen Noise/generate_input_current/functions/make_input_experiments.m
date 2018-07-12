@@ -28,7 +28,8 @@ function [input_current, input_theory, hidden_state] = make_input_experiments(ba
 % [input_current, hidden_state] = make_input_experiments(0, 1000, 20/3000,40/3000, (0.5)/1000, 1, 20000);
 % This creates an input current with baseline 0 pA, amplitude 1000 pA, tau=50 ms, the mean firing rate of neurons in the artificial network is 0.5 Hz, sampling rate of 1 kHz, 20000 ms long (you will need at least about 20 s for a good estimate. 
 
-addpath('Classes')
+f = filesep;
+addpath(['..' f 'Classes'])
 
 %% Parameters
 if nargin == 7
