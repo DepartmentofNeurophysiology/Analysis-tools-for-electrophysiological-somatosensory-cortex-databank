@@ -12,8 +12,8 @@ Please cite both references when using the frozen noise protocol or data.<br />
 See also: https://github.com/fleurzeldenrust/In-vitro-method-for-information-calculation
 
 ### About
-The analysis code loads a data file from the GigaScience database above, and calculates and plots the mutual information between the hidden state and the spike train. <br />
-The function generate_input_current generates a frozen noise input current that can be used in experiments. Note that the hidden_state and input_theory vectors are needed for the information calculation after the experiments!
+In the Analysis folder, the function 'analyze_plot' loads a data file from the GigaScience database above, and calculates and plots the mutual information between the hidden state and the spike train. An example script is given: 'Example_analysis_experiments'.<br />
+In the generate_input_current folder, it is shown how to generate a frozen noise input current that can be used in experiments. Note that the hidden_state and input_theory vectors are needed for the information calculation after the experiments! In an example script 'Example_generate_input' it is shown how this code is used.
 
 ### Use
 see: Frozen Noise / Analysis / Example_analysis_experiments <br /> 
