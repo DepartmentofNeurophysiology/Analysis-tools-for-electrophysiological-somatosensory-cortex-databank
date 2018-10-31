@@ -1,18 +1,8 @@
 # Analysis-tools-for-electrophysiological-somatosensory-cortex-databank
 
 ## About
-Analysis code from <br />
-*da Silva Lantyer, A., Calcini, N., Bijlsma, A., Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (under review) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience* <br />
-Please cite this reference when using the frozen noise data.
-
-## Other analysis -- please add description
-For instance analysis of VC sawtooth
-
-### About
-What does the code do?
-
-### Use
-How do I use it?
+Analysis code for the frozen noise data from <br />
+*da Silva Lantyer, A., Calcini, N., Bijlsma, A., Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (2018) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience* <br />
 
 ## Frozen Noise
 Using the method as described in: <br />
@@ -23,7 +13,7 @@ See also: https://github.com/fleurzeldenrust/In-vitro-method-for-information-cal
 
 ### About
 The analysis code loads a data file from the GigaScience database above, and calculates and plots the mutual information between the hidden state and the spike train. <br />
-The generate_input_current code generates a frozen noise input current that can be used in experiments. Note that the hidden_state and input_theory vectors are needed for the information calculation after the experiments!
+The function generate_input_current generates a frozen noise input current that can be used in experiments. Note that the hidden_state and input_theory vectors are needed for the information calculation after the experiments!
 
 ### Use
 see: Frozen Noise / Analysis / Example_analysis_experiments <br /> 
